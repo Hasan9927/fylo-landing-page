@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-
+/* Nab Bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -32,11 +32,14 @@ li {
 .top-logo img {
   width: 9.325rem;
 }
+
+/*description*/
 .description {
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
   padding-right: 4.25rem;
+  padding-bottom: 10rem;
 }
 .illustration-1 img {
   width: 40.625rem;
@@ -52,7 +55,7 @@ h1 {
   font-weight: 700;
   padding-bottom: 1.375rem;
 }
-p {
+.description-pera {
   font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
   word-spacing: 0.1875rem;
@@ -80,4 +83,78 @@ input {
 }
 .btn-1:active {
   background-color: hsla(224, 93%, 58%, 0.582);
+}
+
+/*Second Part*/
+.second-part {
+  background-image: url('/images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 3rem;
+  padding-top: 8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+.illustration-2 img {
+  width: 40.625rem;
+}
+
+.second-pera {
+  font-size: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 0.1875rem;
+  padding-bottom: 1rem;
+}
+.anchor-tag {
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #3da08f;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3da08f;
+  margin-right: 37.9rem;
+  cursor: pointer;
+}
+a:active {
+  color: #3da08fa1;
+  border-bottom: 1px solid #3da08fa1;
+}
+a img:active {
+  opacity: 0.5;
+}
+
+#see img {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.card {
+  background-color: white;
+  padding: 20px 25px;
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 350px;
+  height: 200px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.039),
+    -4px 5px 5px rgba(0, 0, 0, 0.148);
+}
+.cards-pera {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2rem;
+  color: hsl(238, 22%, 44%);
+}
+
+.img-section {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
