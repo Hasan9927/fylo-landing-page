@@ -26,7 +26,17 @@ li {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 .top-logo img {
   width: 150px;
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description-left {
+  padding: 3rem;
+  padding-top: 5rem;
 }
