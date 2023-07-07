@@ -204,7 +204,7 @@ a img:active {
   padding-right: 480px;
 }
 .sec-right {
-  padding-right: 80px;
+  padding-right: 80 px;
 }
 
 #bo-in {
@@ -221,4 +221,59 @@ a img:active {
   height: 48px;
   font-weight: bold;
   font-size: 13px;
+}
+
+footer {
+  background-color: #070439;
+  padding: 3rem;
+  color: white;
+}
+.foot-logo > img {
+  width: 150px;
+}
+
+.info {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.li {
+  color: white;
+  list-style: none;
+  padding: 20px 10px 14px 10px;
+}
+
+a.social-img {
+  text-decoration: none;
+  border: none;
+}
+a.social-img img {
+  width: 32px;
+  margin-bottom: 20px;
+}
+.phone-logo {
+  display: flex;
+  padding: 20px 0;
+}
+.phone-logo img {
+  margin-right: 13px;
+}
+.phone-logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.mail-logo {
+  display: flex;
+}
+.mail-logo img {
+  margin-right: 13px;
+}
+.mail-logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-logos {
+  margin-top: 12px;
 }
